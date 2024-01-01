@@ -45,23 +45,26 @@
 }
 
 #filterstatus {
+  background-color: rgb(11, 232, 18);
   margin-right: 50px;
   padding: 15px;
-  margin-bottom: 10px;
+  border-radius: 10px;
 }
 
 #sortOrder {
+  background-color: rgb(11, 232, 18);
   margin-left: 50px;
-   margin-bottom: 10px;
   padding: 15px;
+  border-radius: 10px;
   
 }
 
 .search {
-  margin-top: 10px;
+  background-color: rgb(11, 232, 18);
   padding: 15px;
   padding-right: 100px;
   width: 300px;
+  border-radius: 10px;
 }
 
 .checkbox-grid {

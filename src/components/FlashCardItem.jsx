@@ -48,7 +48,7 @@ const FlashCardItem = ({ card, onDelete, onUpdate, onSelect, isSelected, onRearr
                     checked={isSelected}
                     onChange={() => onSelect(card.id)}
                 />
-                <div className="checkbox-icon">&#10003;</div>
+                
             </div>
             <div className="flipper">
                 <div className="front">
@@ -57,6 +57,12 @@ const FlashCardItem = ({ card, onDelete, onUpdate, onSelect, isSelected, onRearr
                     ) : (
                         <h3 className="frontTxt">{card.frontText}</h3>
                     )}
+                    
+                    <p className="status">Status: {card.status}</p>
+                    <span className="hidden" data-last-modification={card.lastModificationDateTime}></span>
+                    <p className="last-modification">
+                        Last Modified: {new Date(card.lastModificationDateTime).toLocaleDateString()}
+                    </p>
                     <div className="buttons">
                         <button className="update-button" onClick={() => onUpdate(card)}>
                             Update
@@ -65,11 +71,6 @@ const FlashCardItem = ({ card, onDelete, onUpdate, onSelect, isSelected, onRearr
                             Delete
                         </button>
                     </div>
-                    <p className="status">Status: {card.status}</p>
-                    <span className="hidden" data-last-modification={card.lastModificationDateTime}></span>
-                    <p className="last-modification">
-                        Last Modified: {new Date(card.lastModificationDateTime).toLocaleDateString()}
-                    </p>
                 </div>
                 <div className="back">
                     <p className="backTxt">{card.backAnswer}</p>
