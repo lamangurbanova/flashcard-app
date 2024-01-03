@@ -2,49 +2,49 @@
   "cards": [
     {
       "id": 4,
-      "frontText": "What is the capital of Australia?",
+      "frontText": "What is the melting point of ice??",
       "image": "",
-      "backAnswer": "Canberra is the capital of Australia.",
+      "backAnswer": "The melting point of ice is 0 degrees Celsius (32 degrees Fahrenheit).",
       "lastModificationDateTime": "12/16/2023",
       "status": "Mark as Noted"
     },
     {
       "id": 5,
-      "frontText": "Who wrote 'The Great Gatsby'?",
+      "frontText": "Who is the lead singer of the band Queen?",
       "image": "",
-      "backAnswer": "F. Scott Fitzgerald wrote 'The Great Gatsby'.",
+      "backAnswer": "Freddie Mercury was the lead singer of the band Queen.",
       "lastModificationDateTime": "12/16/2023",
       "status": "Mark as Noted"
     },
     {
       "id": 6,
-      "frontText": "What is the currency of China?",
+      "frontText": "What is the capital of Canada?",
       "image": "",
-      "backAnswer": "The currency of China is the Renminbi (Yuan).",
+      "backAnswer": "Ottawa is the capital of Canada.",
       "lastModificationDateTime": "12/15/2023",
       "status": "Mark as Noted"
     },
     {
       "id": 7,
-      "frontText": "Name two famous scientists in history.",
+      "frontText": "What is the largest mammal on Earth?",
       "image": "",
-      "backAnswer": "Isaac Newton and Albert Einstein are two famous scientists in history.",
+      "backAnswer": "The blue whale is the largest mammal on Earth.",
       "lastModificationDateTime": "12/14/2023",
       "status": "Want to Learn"
     },
     {
       "id": 8,
-      "frontText": "What is the capital of France?",
+      "frontText": "Who wrote 'The Odyssey'?",
       "image": "",
-      "backAnswer": "Paris is the capital of France.",
+      "backAnswer": "Homer is the author of 'The Odyssey'.",
       "lastModificationDateTime": "12/13/2023",
       "status": "Want to Learn"
     },
     {
       "id": 9,
-      "frontText": "Who directed the movie 'Inception'?",
+      "frontText": "Who is the current President of the United States?",
       "image": "",
-      "backAnswer": "Christopher Nolan directed the movie 'Inception'.",
+      "backAnswer": "As of the last update, the current President of the United States is Joe Biden.",
       "lastModificationDateTime": "12/12/2023",
       "status": "Want to Learn"
     },
@@ -569,14 +569,6 @@
       "status": "Want to Learn"
     },
     {
-      "id": 85,
-      "frontText": "Who wrote 'Wuthering Heights'?",
-      "image": "",
-      "backAnswer": "Emily Brontë wrote 'Wuthering Heights'.",
-      "lastModificationDateTime": "12/16/2019",
-      "status": "Want to Learn"
-    },
-    {
       "id": 86,
       "frontText": "What is the largest desert in Africa?",
       "image": "",
@@ -694,12 +686,11 @@
       "description": "This web assignment demonstrates fetching data from an external API and displaying it on a web page. The project utilizes JavaScript to integrate with the API from dummyjson.com. The fetched data about various products is displayed on the home page in a user-friendly format. ",
       "link": "https://github.com/fidanyusifova/WebAssignment2"
     },
-   {
-   "id": 3,
+    {
+      "id": 3,
       "title": "Bookstore",
       "description": "This Java-based application is designed to manage a bookstore's database (written in PostgreSQL), enabling interactions such as CRUD operations, transaction handling, and metadata access. The system provides functionalities to manage books, authors, customers, orders, and order details efficiently.",
       "link": "https://github.com/fidanyusifova/DatabaseAssignment2"
     }
   ]
-  
 }

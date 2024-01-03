@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../assets/style/components/createcardmodal.css";
+import "../assets/style/components/createcard.css";
 
 const CreateCardModal = ({ onCreate, onClose }) => {
     const [frontText, setFrontText] = useState("");
